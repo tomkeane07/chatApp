@@ -1,0 +1,27 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "description": "chat App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomkeane07/chatApp.git"
+  },
+  "author": "tomKeane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomkeane07/chatApp/issues"
+  },
+  "homepage": "https://github.com/tomkeane07/chatApp#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.1",
+    "nodemon": "^1.19.2",
+    "socket.io": "^2.2.0"
+  }
+}
